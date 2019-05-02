@@ -1,0 +1,25 @@
+#friendstable{
+    border-collapse:separate;
+	border-spacing: 0px 25px;
+	width:100%;
+}
+#friendstable tr{	
+	outline: thin solid #D3D3D3;
+}
+#friendstable td a{
+	font-weight:bold;
+}
+
+ .photo{
+	 width:105px;
+	 height:105px;
+	 border: 1px solid #D3D3D3;
+ }
+ small{
+	 color:#808080;
+ }
+ .pull-right{
+
+   margin-right:20px;
+}
+ 

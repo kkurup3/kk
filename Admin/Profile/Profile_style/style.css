@@ -1,0 +1,324 @@
+#page-contents{
+  padding: 30px 0 50px;
+}
+
+.container{max-width: 1050px;}
+
+/*==================================================
+  Left Sidebar
+  ==================================================*/
+.profile-card{
+  background: linear-gradient(to bottom, rgba(39,170,225,.8), rgba(28,117,188,.8)), no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 90px;
+  border-radius: 4px;
+  padding: 10px 20px;
+  color: #fff;
+  margin-bottom: 40px;
+  
+}
+.static{
+	position:fixed;
+}
+ul.nav-news-feed{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 0 40px 0;
+}
+
+ul.nav-news-feed li{
+  list-style: none;
+  display: block;
+  padding: 15px 0;
+}
+
+ul.nav-news-feed li div{
+  position: relative;
+  margin-left: 30px;
+  }
+
+ul.nav-news-feed li div::after{
+  content: "";
+  width: 100%;
+  height: 1px;
+  border-top: 1px solid #f1f2f2;
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+}
+
+ul.nav-news-feed li a{color: #6d6e71;}
+
+ul.nav-news-feed li i{
+  font-size: 18px;
+  margin-right: 15px;
+  margin-top: 0px;
+  float: left;
+}
+
+ul.nav-news-feed i.ion-ios-paper{color: #8dc63f;}
+
+ul.nav-news-feed i.ion-ios-people{color: #662d91;}
+
+ul.nav-news-feed i.ion-ios-people-outline{color: #ee2a7b;}
+
+ul.nav-news-feed i.ion-ios-chatboxes{color: #f7941e;}
+
+ul.nav-news-feed i.ion-images{color: #1c75bc;}
+
+ul.nav-news-feed i.ion-ios-videocam{color: #9e1f63;}
+ul.nav-news-feed i.ion-ios-person{color: #662d91;}
+ul.nav-news-feed i.ion-wrench{color: #27aae1;}
+
+
+img.profile-photo{
+  height: 58px;
+  width: 58px;
+  border-radius: 50%;
+}
+
+img.profile-photo-md{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
+
+
+/*==================================================
+  Create Post Box CSS
+  ==================================================*/
+  
+.create-post{
+  width: 100%;
+  min-height: 70px;
+  padding: 20px;
+  margin-bottom: 10px;
+   border-bottom: 1px solid #f1f2f2;
+}
+
+.create-post .form-group{
+  margin-bottom: 0;
+  display: inline-flex;
+}
+img.profile-photo-md{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
+.form-control{
+  background: #fff;
+  border: 1px solid #f1f2f2;
+  box-shadow: none;
+  border-radius: 4px;
+  color: #939598;
+  width: 100%;
+}
+.btn-primary{
+	background: #27aae1;
+	
+	padding-top: 100px;
+	border: none;
+	font-size: 14px;
+	border-radius: 4px;
+	color: #fff;
+	
+  font-weight: 600;
+  outline: none;
+  border-radius: 30px;
+  
+}
+
+.btn-primary:hover{
+  background: #149AC9;
+  transition: all 1s;
+}
+
+.btn-primary::before{
+  content: "";
+  background: rgba(255,255,255, 0.2);
+  position: absolute;
+  width: 95%;
+  height: 1px;
+  top: 1px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.pull-right{
+	float:right;
+}
+
+img.upload_img{
+padding-left :10px;
+float: left;
+
+}
+img.up_img {
+		display:inline-block;
+}
+
+.create-post .form-group img.profile-photo-md{
+  margin-right: 10px;
+}
+
+.create-post .tools{
+  padding: 8px 0 10px;
+}
+
+.create-post .tools ul.publishing-tools{
+  display: inline-block;
+  text-align:left;
+  margin: 0;
+  padding:5px 0;
+}
+.create-post .tools ul.publishing-tools li{
+	float:left;
+}
+.create-post .tools ul.publishing-tools li img.upload_pic{
+  color: #6d6e71;
+  font-size: 18px;
+}
+
+.create-post .tools ul.publishing-tools li img.upload_pic:hover{
+  color: #27aae1;
+}
+.create-post .tools ul.publishing-tools li label{
+		background: #fff;
+	padding: 7px 25px;
+	
+	font-size: 14px;
+	position: relative;
+  outline: none;
+	color: #27aae1;
+	border-radius: 4px;
+	font-weight: 600;
+	border-color: lightgrey
+}
+.create-post .tools ul.publishing-tools li label:hover{
+  background: #fff;
+  transition: all 1s;
+}
+.create-post .tools ul.publishing-tools li select{
+	background: #fff;
+	padding: 7px 25px;
+	
+	font-size: 14px;
+	position: relative;
+  outline: none;
+	color: #27aae1;
+	border-radius: 4px;
+	font-weight: 600;
+	border-color: lightgrey
+}
+
+.create-post .tools ul.publishing-tools li select:hover{
+  background: #fff;
+  transition: all 1s;
+}
+.create-post .tools ul.publishing-tools li select .privacy{
+	background:none;
+}
+
+.post-tab {
+	float: left;
+}
+/*==================================================
+  Post Contents CSS
+  ==================================================*/
+  
+.post-content{
+	position:absolute;
+	/*
+  background: #f8f8f8;
+  border-radius: 4px;
+  width: 100%;
+  border: 1px solid #f1f2f2;
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+  */
+}
+
+
+/*Chat Block CSS*/
+
+#chat-block{
+  margin: 0 0 40px 0;
+  text-align: center;
+  
+}
+
+#chat-block .title{
+  background: #8dc63f;
+  padding: 5px 20px;
+  height: 30px;
+  border-radius: 15px;
+  position: relative;
+  margin: 0 auto 20px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+ul.online-users{
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  margin: 0;
+}
+
+ul.online-users li{
+  list-style: none;
+  position: relative;
+  margin: 3px auto;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+ul.online-users li span.online-dot{
+  background: linear-gradient(to bottom, rgba(141,198,63, 1), rgba(0,148,68, 1));
+  border: none;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -6px;
+  border: 2px solid #fff;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.text-white{color: #fff;}
+
+.text-white:hover{color: #fff;}
+/*==================================================
+  FOR FORM LAYOUT
+  ==================================================*/
+.form-group{
+	margin-top:10px;
+}
+.form-group label{
+	margin-right:25px;
+}
+/*==================================================
+  HEADING FOR TITLE
+  ==================================================*/
+.grey{
+	color:#808080;  
+}
+/*========================================================
+  FOR SHOWING ERROR OR SUCCESS MSGS ON SUBMITTING THE FORM
+  =========================================================*/
+#error_show{
+	color: red;
+	margin-left: 10px;
+			
+}
+#success {
+	color: green;
+	margin-left: 10px;
+}
+ 

@@ -1,0 +1,116 @@
+#page-contents{
+  padding: 30px 0 50px;
+}
+/*========================================================
+  FOR SHOWING ERROR OR SUCCESS MSGS ON SUBMITTING THE FORM
+  =========================================================*/
+#error_show{
+	color: red;
+	margin-left: 10px;
+			
+}
+#success {
+	color: green;
+	margin-left: 10px;
+}
+/*==================================================
+  FOR PROFILE PHOTO IN UPDATE PAGE
+  ==================================================*/
+ .profile-photo{
+	width:150;
+	height:150;
+	border-radius: 50%;
+	border:5px solid #6d6e71;
+	margin-top:10px;
+}
+/*==================================================
+  FOR LEFT BAR (NAVIGATION BAR)
+  ==================================================*/
+
+.ul.nav-news-feed{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 0 40px 0;
+}
+
+ul.nav-news-feed li{
+  list-style: none;
+  display: block;
+  padding: 15px 0;
+}
+
+ul.nav-news-feed li div{
+  position: relative;
+  margin-left: 30px;
+}
+
+ul.nav-news-feed li div::after{
+  content: "";
+  width: 100%;
+  height: 1px;
+  border-top: 1px solid #f1f2f2;
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+}
+
+ul.nav-news-feed li a{color: #6d6e71;}
+ul.nav-news-feed .active div a, ul.nav-news-feed .active div i{
+  color:8dc63f;
+}
+ul.nav-news-feed li i{
+  font-size: 15px;
+  margin-top: 6px;
+  margin-right: 5px;
+  float: left;
+}
+ul.nav-news-feed i.ion-wrench{color: #27aae1;}
+ul.nav-news-feed i.ion-ios-settings{color: #27aae1;}
+ul.nav-news-feed i.ion-android-people{color: #27aae1;}
+ul.nav-news-feed i.ion-ios-person{color: #27aae1;}
+/*==================================================
+  HEADING FOR TITLE
+  ==================================================*/
+.grey{
+	color:#808080;  
+}
+
+/*==================================================
+  FOR BUTTONS SUBMIT
+  ==================================================*/
+.btn-primary{
+	background: #27aae1;
+	padding: 7px 25px;
+	border: none;
+	font-size: 14px;
+	border-radius: 4px;
+	color: #fff;
+	position: relative;
+	font-weight: 600;
+	outline: none;
+	border-radius: 30px;
+	margin-top:30px;
+	margin-left:10px;
+}
+
+.btn-primary:hover{
+  background: #149AC9;
+  transition: all 1s;
+}
+
+.pull-right{
+	float:right;
+}
+/*==================================================
+  FOR FORM LAYOUT
+  ==================================================*/
+.form-group{
+	margin-top:10px;
+}
+.form-group label{
+	margin-right:25px;
+}
+
+
+
+
